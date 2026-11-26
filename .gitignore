@@ -1,0 +1,22 @@
+# 后端
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*.sqlite3
+
+# 前端
+node_modules/
+dist/
+
+# 环境变量 / 日志
+.env
+.env.local
+*.log
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/

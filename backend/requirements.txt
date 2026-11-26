@@ -1,0 +1,7 @@
+# 仅保留规则允许的依赖，不引入 Redis / Celery / 消息队列 / MySQL / Docker
+fastapi
+uvicorn[standard]
+sqlalchemy
+pyjwt
+passlib[bcrypt]
+python-multipart
